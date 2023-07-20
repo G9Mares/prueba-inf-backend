@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from router import login
 
+#python -m uvicorn main:app --reload --port 4000 
+
 app = FastAPI()
 origins = ["*"] 
 
